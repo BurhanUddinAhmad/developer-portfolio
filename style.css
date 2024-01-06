@@ -20,6 +20,7 @@ h2 {
     font-size: 2.6rem;
     color: var(--fntClor);
     margin: 1.5rem auto;
+    text-align: center;
 }
 /* ======= start Header ==== */
 header {
@@ -170,4 +171,39 @@ nav .menu {
 .aboutContact .item h3 {
     font-size: 1.6rem;
     color: var(--fntClor);
+}
+
+/* Start What I do section */
+.widoContent {
+    margin-top: 10rem;
+}
+.widoheading p {
+    font-size: 1.4rem;
+    color: var(--pClor);
+    width: 65%;
+    margin: auto;
+    line-height: 2.8rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.widoItems {
+   margin: 2rem 0;
+   display: flex;
+   justify-content: space-between;
+}
+.widoItems .singleItem {
+    flex-basis: 26rem;
+    padding: 2rem;
+    box-shadow: 0 .2rem .6rem 0 rgba(0, 0, 0, 0.3);
+}
+.widoItems .singleItem h6 {
+    margin: 1.5rem 0;
+    font-size: 1.6rem;
+    color: var(--fntClor);
+}
+.widoItems .singleItem p {
+    text-align: left;
+    color: var(--pClor);
+    line-height: 2.5rem;
+    font-size: 1.4rem;
 }
