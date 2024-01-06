@@ -3,9 +3,63 @@
 
 *{ margin: 0; padding: 0;box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    font-size: 62.3%;
+    --mnuClor: #474747;
     --btnClor: #FD6E0A;
     --btnText: #fff;
+    --btnHover: #e46810;
     --bgClor: #FFF8F3;
     --fntClor: #000;
     --pClor: #757575;
+}
+
+/* ======= start Header ==== */
+header {
+    background: var(--bgClor);
+}
+/* Navbar Design */
+nav {
+    width: 114rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav h2 {
+    font-size: 4.5rem;
+}
+nav h2 span {
+    font-size: 4.5rem;
+    color: var(--btnClor);
+}
+nav .menu {
+    display: flex;
+    width: 25rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: var(--mnuClor);
+    font-size: 2rem;
+    padding: .5rem 1rem;
+}
+.menu .btn button {
+    display: block;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    background: var(--btnClor);
+    color: var(--btnText);
+    border: none;
+    border-radius: .5rem;
+    transition: .3s ease;
+}
+.menu .btn button:hover {
+    cursor: pointer;
+    background: var(--btnHover);
+
 }
