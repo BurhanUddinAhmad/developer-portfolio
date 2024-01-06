@@ -24,8 +24,10 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-nav h2 {
+nav h2 a {
     font-size: 4.5rem;
+    text-decoration: none;
+    color: var(--fntClor);
 }
 nav h2 span {
     font-size: 4.5rem;
@@ -33,9 +35,9 @@ nav h2 span {
 }
 nav .menu {
     display: flex;
-    width: 25rem;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
 .menu ul {
     display: flex;
@@ -47,6 +49,10 @@ nav .menu {
     color: var(--mnuClor);
     font-size: 2rem;
     padding: .5rem 1rem;
+    transition: .3s ease;
+}
+.menu ul li a:hover {
+    color: var(--fntClor);
 }
 .menu .btn button {
     display: block;
@@ -61,5 +67,6 @@ nav .menu {
 .menu .btn button:hover {
     cursor: pointer;
     background: var(--btnHover);
-
 }
+/* ========= Navbar Ends here ====== */
+
