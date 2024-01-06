@@ -16,6 +16,10 @@
 /* ======= start Header ==== */
 header {
     background: var(--bgClor);
+    background: url('./images/developer.png') no-repeat, url(./images/header_bg.png) no-repeat;
+    background-position: left, bottom right;
+    background-size: contain, 40%;
+    margin: 2rem 1rem 1rem 1rem ;
 }
 /* Navbar Design */
 nav {
@@ -70,3 +74,58 @@ nav .menu {
 }
 /* ========= Navbar Ends here ====== */
 
+/* ====== Start Hero section ======== */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 114rem;
+    margin: 2rem auto;
+}
+.heroContent {
+    width: 50rem;
+}
+.heroContent h3 {
+    font-size: 2rem;
+}
+.heroContent h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.heroContent p {
+    font-size: 1.6rem;
+    color: var(--pClor);
+}
+.heroContent .btns {
+    margin: 1.5rem 0;
+}
+.heroContent .btns button {
+    background: var(--btnClor);
+    color: var(--btnText);
+    padding: 1rem 1.5rem;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: .3rem;
+    margin-right: 1rem;
+    transition: .3s ease;
+}
+.heroContent .btns button i {
+    font-size: 1.6rem;
+}
+.heroContent .btns button:last-child {
+    background: var(--btnText);
+    color: var(--btnClor);
+    border: .1rem solid var(--btnClor);
+}
+.heroContent .btns button:hover {
+    cursor: pointer;
+    background: var(--btnHover);
+}
+.heroContent .btns button:last-child:hover {
+    background: var(--btnClor);
+    color: var(--btnText);
+}
+.heroImg img {
+    width: 34rem;
+    height: 42rem;
+}
