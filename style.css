@@ -1,5 +1,5 @@
 /*===== Default style ======== */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
 *{ margin: 0; padding: 0;box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -206,4 +206,130 @@ nav .menu {
     color: var(--pClor);
     line-height: 2.5rem;
     font-size: 1.4rem;
+}
+
+/* === Resume Section ======= */
+#resume {
+    margin-top: 10rem;
+}
+.resume-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+.resume-content h4 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: var(--fntClor);
+}
+.resume-content h5 {
+    font-size: 1.6rem;
+    color: var(--pClor);
+    margin-bottom: .2rem;
+}
+.resume-content h6 {
+    font-size: 1.2rem;
+    color: var(--pClor);
+    margin-bottom: 1rem;
+}
+.resume-content p {
+    font-size: 1.2rem;
+    color: var(--pClor);
+    margin-bottom: 1rem;
+    line-height: 2.5rem;
+}
+.resume-content hr {
+    margin-bottom: 1rem;
+    background: var(--pClor);
+}
+.education {
+    width: 45%;
+}
+.experience {
+    width: 45%;
+}
+#resume .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+#resume .btn button {
+    background: var(--btnClor);
+    color: var(--btnText);
+    padding: 1rem 1.5rem;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: .3rem;
+    margin-right: 1rem;
+    transition: .3s ease;
+}
+#resume .btn button i {
+    font-size: 1.6rem;
+}
+#resume .btn button:hover {
+    cursor: pointer;
+    background: var(--btnHover);
+}
+/* ===== Start Footer section ======== */
+footer {
+    margin-top: 10rem;
+    background: var(--bgClor);
+    padding: 10rem 0;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.social-contact {
+    flex-basis: 40%;
+}
+.footer-content h3 {
+    font-size: 2rem;
+    color: var(--fntClor);
+    margin-bottom: 1.5rem;
+}
+.social-contact p {
+    font-size: 1.2rem;
+    color: var(--pClor);
+    line-height: 2.3rem;
+    margin-bottom: 1.5rem;
+}
+.social-icons a {
+    text-decoration: none;
+    margin-right: 1rem;
+}
+form {
+    flex-basis: 40%;
+}
+form input, textarea {
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border: .1rem solid #a5a4a4;
+}
+form textarea {
+    height: 20rem;
+}
+::placeholder {
+    color: #ddd;
+    font-size: 1.4rem;
+}
+form button {
+    background: var(--btnClor);
+    color: var(--btnText);
+    padding: 1rem 1.5rem;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: .3rem;
+    margin-right: .2rem;
+    letter-spacing: 1rem;
+    transition: .3s ease;
+}
+form button:hover {
+    cursor: pointer;
+    background: var(--btnHover);
 }
