@@ -12,14 +12,25 @@
     --fntClor: #000;
     --pClor: #757575;
 }
-
+.container {
+    width: 114rem;
+    margin: 2rem auto;
+}
+h2 {
+    font-size: 2.6rem;
+    color: var(--fntClor);
+    margin: 1.5rem auto;
+}
 /* ======= start Header ==== */
 header {
     background: var(--bgClor);
+    padding: 2rem 1rem;
+    margin-bottom: 10rem;
+}
+.headerContent {
     background: url('./images/developer.png') no-repeat, url(./images/header_bg.png) no-repeat;
     background-position: left, bottom right;
     background-size: contain, 40%;
-    margin: 2rem 1rem 1rem 1rem ;
 }
 /* Navbar Design */
 nav {
@@ -28,12 +39,12 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-nav h2 a {
+nav h5 a {
     font-size: 4.5rem;
     text-decoration: none;
     color: var(--fntClor);
 }
-nav h2 span {
+nav h5 span {
     font-size: 4.5rem;
     color: var(--btnClor);
 }
@@ -128,4 +139,35 @@ nav .menu {
 .heroImg img {
     width: 34rem;
     height: 42rem;
+}
+
+/* ===== start About Section ===== */
+
+.aboutContent {
+    background: var(--bgClor);
+    text-align: center;
+    padding: 4rem 2rem;
+}
+.aboutContent p {
+    font-size: 1.4rem;
+    color: var(--pClor);
+    width: 65%;
+    margin: auto;
+    line-height: 2.8rem;
+    margin-bottom: 2rem;
+}
+.aboutContact {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 3rem;
+    margin: auto;
+}
+.aboutContact .item h4 {
+    font-size: 1.6rem;
+    color: var(--pClor);
+}
+.aboutContact .item h3 {
+    font-size: 1.6rem;
+    color: var(--fntClor);
 }
