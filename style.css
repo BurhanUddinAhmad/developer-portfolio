@@ -1,0 +1,11 @@
+/*===== Default style ======== */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+*{ margin: 0; padding: 0;box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    --btnClor: #FD6E0A;
+    --btnText: #fff;
+    --bgClor: #FFF8F3;
+    --fntClor: #000;
+    --pClor: #757575;
+}
